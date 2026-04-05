@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranbeer Rathore</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #000000, #1a0000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.06);
+      padding: 45px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      text-align: center;
+      width: 340px;
+      box-shadow: 0 0 25px rgba(255,0,0,0.3);
+    }
+
+    /* 🔥 BIGGER DP */
+    .dp {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid red;
+      box-shadow: 0 0 25px red;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #bbb;
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+
+    .btn {
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(45deg, #ff0000, #ff4d4d);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 15px red;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <img src="dp.jpg." class="dp">
+
+    <h1>Ranbeer Rathore</h1>
+    <p>Official Channel • Since 2015 ™</p>
+
+    <button class="btn" onclick="joinNow()">
+      JOIN TELEGRAM 🚀
+    </button>
+
+  </div>
+
+  <script>
+    function joinNow() {
+      window.location.href = "https://t.me/+LnOLoFJjiBBkZDcx";
+    }
+  </script>
+
+</body>
+</html>
