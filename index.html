@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranbeer Rathore</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1520975922284-8b456906c813') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.75);
+      top: 0;
+      left: 0;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      z-index: 2;
+    }
+
+    /* 🔥 BIG DP */
+    .dp {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid red;
+      box-shadow: 0 0 30px red;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 45px;
+      color: #ff2e2e;
+      text-shadow: 0 0 10px red;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 15px 35px;
+      font-size: 18px;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(45deg, #ff0000, #ff4d4d);
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 15px red;
+    }
+
+    .tag {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #888;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="container">
+
+    <!-- 🔥 DP IMAGE -->
+    <img src="dp.jpg." class="dp">
+
+    <h1>Ranbeer Rathore</h1>
+    <p>Official Channel • Since 2015 ™</p>
+
+    <button class="btn" onclick="joinNow()">
+      JOIN TELEGRAM 🚀
+    </button>
+
+    <div class="tag">Fast Updates • Trusted Source</div>
+  </div>
+
+  <script>
+    function joinNow() {
+      window.location.href = "https://t.me/+LnOLoFJjiBBkZDcx";
+    }
+  </script>
+
+</body>
+</html>
